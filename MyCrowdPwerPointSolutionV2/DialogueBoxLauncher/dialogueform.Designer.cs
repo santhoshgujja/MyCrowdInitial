@@ -128,9 +128,10 @@
             this.taskCategory.ForeColor = System.Drawing.Color.White;
             this.taskCategory.Location = new System.Drawing.Point(-3, 112);
             this.taskCategory.Name = "taskCategory";
-            this.taskCategory.Size = new System.Drawing.Size(210, 53);
+            this.taskCategory.Size = new System.Drawing.Size(209, 53);
             this.taskCategory.TabIndex = 1;
             this.taskCategory.Text = "Task Category";
+            this.taskCategory.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.taskCategory.UseVisualStyleBackColor = false;
             this.taskCategory.Click += new System.EventHandler(this.taskCategory_Click);
             // 
@@ -143,9 +144,10 @@
             this.DescribeTask.ForeColor = System.Drawing.Color.White;
             this.DescribeTask.Location = new System.Drawing.Point(-2, 167);
             this.DescribeTask.Name = "DescribeTask";
-            this.DescribeTask.Size = new System.Drawing.Size(209, 53);
+            this.DescribeTask.Size = new System.Drawing.Size(208, 53);
             this.DescribeTask.TabIndex = 1;
             this.DescribeTask.Text = "Describe The Task";
+            this.DescribeTask.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DescribeTask.UseVisualStyleBackColor = false;
             this.DescribeTask.Click += new System.EventHandler(this.DescribeTask_Click);
             // 
@@ -158,9 +160,10 @@
             this.AddFiles.ForeColor = System.Drawing.Color.White;
             this.AddFiles.Location = new System.Drawing.Point(-2, 222);
             this.AddFiles.Name = "AddFiles";
-            this.AddFiles.Size = new System.Drawing.Size(209, 53);
+            this.AddFiles.Size = new System.Drawing.Size(208, 53);
             this.AddFiles.TabIndex = 1;
             this.AddFiles.Text = "Add Files (Optional)";
+            this.AddFiles.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.AddFiles.UseVisualStyleBackColor = false;
             this.AddFiles.Click += new System.EventHandler(this.AddFiles_Click);
             // 
@@ -173,9 +176,10 @@
             this.SetThePrice.ForeColor = System.Drawing.Color.White;
             this.SetThePrice.Location = new System.Drawing.Point(-2, 277);
             this.SetThePrice.Name = "SetThePrice";
-            this.SetThePrice.Size = new System.Drawing.Size(209, 53);
+            this.SetThePrice.Size = new System.Drawing.Size(208, 53);
             this.SetThePrice.TabIndex = 1;
             this.SetThePrice.Text = "Set The Price";
+            this.SetThePrice.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SetThePrice.UseVisualStyleBackColor = false;
             this.SetThePrice.Click += new System.EventHandler(this.SetThePrice_Click);
             // 
@@ -188,9 +192,10 @@
             this.FindaWorker.ForeColor = System.Drawing.Color.White;
             this.FindaWorker.Location = new System.Drawing.Point(-2, 331);
             this.FindaWorker.Name = "FindaWorker";
-            this.FindaWorker.Size = new System.Drawing.Size(209, 53);
+            this.FindaWorker.Size = new System.Drawing.Size(208, 53);
             this.FindaWorker.TabIndex = 1;
             this.FindaWorker.Text = "Find a Worker";
+            this.FindaWorker.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.FindaWorker.UseVisualStyleBackColor = false;
             this.FindaWorker.Click += new System.EventHandler(this.FindaWorker_Click);
             // 
@@ -203,21 +208,26 @@
             this.Confirm.ForeColor = System.Drawing.Color.White;
             this.Confirm.Location = new System.Drawing.Point(0, 386);
             this.Confirm.Name = "Confirm";
-            this.Confirm.Size = new System.Drawing.Size(207, 53);
+            this.Confirm.Size = new System.Drawing.Size(206, 53);
             this.Confirm.TabIndex = 1;
             this.Confirm.Text = "Confirm";
+            this.Confirm.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Confirm.UseVisualStyleBackColor = false;
             this.Confirm.Click += new System.EventHandler(this.Confirm_Click);
             // 
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.splitContainer1.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer1.Panel1.BackgroundImage")));
+            this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox2);
             this.splitContainer1.Panel1.Controls.Add(this.SetThePrice);
             this.splitContainer1.Panel1.Controls.Add(this.AddFiles);
@@ -231,7 +241,7 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
             this.splitContainer1.Size = new System.Drawing.Size(1822, 705);
-            this.splitContainer1.SplitterDistance = 211;
+            this.splitContainer1.SplitterDistance = 213;
             this.splitContainer1.TabIndex = 8;
             // 
             // pictureBox2
@@ -255,6 +265,7 @@
             // splitContainer2.Panel1
             // 
             this.splitContainer2.Panel1.BackColor = System.Drawing.Color.White;
+            this.splitContainer2.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.splitContainer2.Panel1.Controls.Add(this.panel1);
             this.splitContainer2.Panel1.Controls.Add(this.TaskNameTextBox);
             this.splitContainer2.Panel1.Controls.Add(this.TaskNameLabel);
@@ -262,25 +273,26 @@
             // 
             // splitContainer2.Panel2
             // 
-            this.splitContainer2.Panel2.Controls.Add(this.TaskCategoryPanel);
-            this.splitContainer2.Panel2.Controls.Add(this.DescribeTheTaskPanel);
-            this.splitContainer2.Panel2.Controls.Add(this.ConfirmPanel);
-            this.splitContainer2.Panel2.Controls.Add(this.SetaPricePanel);
-            this.splitContainer2.Panel2.Controls.Add(this.AddFilesPanel);
             this.splitContainer2.Panel2.Controls.Add(this.FindaWorkerPanel);
+            this.splitContainer2.Panel2.Controls.Add(this.AddFilesPanel);
+            this.splitContainer2.Panel2.Controls.Add(this.SetaPricePanel);
+            this.splitContainer2.Panel2.Controls.Add(this.ConfirmPanel);
+            this.splitContainer2.Panel2.Controls.Add(this.DescribeTheTaskPanel);
+            this.splitContainer2.Panel2.Controls.Add(this.TaskCategoryPanel);
             this.splitContainer2.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel2_Paint);
-            this.splitContainer2.Size = new System.Drawing.Size(1607, 705);
+            this.splitContainer2.Size = new System.Drawing.Size(1605, 705);
             this.splitContainer2.SplitterDistance = 115;
             this.splitContainer2.TabIndex = 0;
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel1.Controls.Add(this.label8);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1607, 51);
+            this.panel1.Size = new System.Drawing.Size(1605, 51);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel1_Paint);
             // 
@@ -316,13 +328,15 @@
             // TaskCategoryPanel
             // 
             this.TaskCategoryPanel.BackColor = System.Drawing.Color.White;
+            this.TaskCategoryPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TaskCategoryPanel.BackgroundImage")));
+            this.TaskCategoryPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.TaskCategoryPanel.Controls.Add(this.TaskCategorylabel);
             this.TaskCategoryPanel.Controls.Add(this.TaskCategoryGroupBox);
             this.TaskCategoryPanel.Controls.Add(this.TaskCategoryNext);
             this.TaskCategoryPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TaskCategoryPanel.Location = new System.Drawing.Point(0, 0);
             this.TaskCategoryPanel.Name = "TaskCategoryPanel";
-            this.TaskCategoryPanel.Size = new System.Drawing.Size(1607, 586);
+            this.TaskCategoryPanel.Size = new System.Drawing.Size(1605, 586);
             this.TaskCategoryPanel.TabIndex = 0;
             this.TaskCategoryPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
             // 
@@ -429,6 +443,8 @@
             // 
             // DescribeTheTaskPanel
             // 
+            this.DescribeTheTaskPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DescribeTheTaskPanel.BackgroundImage")));
+            this.DescribeTheTaskPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.DescribeTheTaskPanel.Controls.Add(this.taskDescriptionText);
             this.DescribeTheTaskPanel.Controls.Add(this.Describethetasklabel);
             this.DescribeTheTaskPanel.Controls.Add(this.DescribeTaskPrevious);
@@ -436,7 +452,7 @@
             this.DescribeTheTaskPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DescribeTheTaskPanel.Location = new System.Drawing.Point(0, 0);
             this.DescribeTheTaskPanel.Name = "DescribeTheTaskPanel";
-            this.DescribeTheTaskPanel.Size = new System.Drawing.Size(1607, 586);
+            this.DescribeTheTaskPanel.Size = new System.Drawing.Size(1605, 586);
             this.DescribeTheTaskPanel.TabIndex = 1;
             this.DescribeTheTaskPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
             // 
@@ -490,6 +506,8 @@
             // 
             // ConfirmPanel
             // 
+            this.ConfirmPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ConfirmPanel.BackgroundImage")));
+            this.ConfirmPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ConfirmPanel.Controls.Add(this.label7);
             this.ConfirmPanel.Controls.Add(this.label5);
             this.ConfirmPanel.Controls.Add(this.ConfirmCheckBox);
@@ -499,7 +517,7 @@
             this.ConfirmPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ConfirmPanel.Location = new System.Drawing.Point(0, 0);
             this.ConfirmPanel.Name = "ConfirmPanel";
-            this.ConfirmPanel.Size = new System.Drawing.Size(1607, 586);
+            this.ConfirmPanel.Size = new System.Drawing.Size(1605, 586);
             this.ConfirmPanel.TabIndex = 3;
             this.ConfirmPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
             // 
@@ -579,6 +597,8 @@
             // 
             // SetaPricePanel
             // 
+            this.SetaPricePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SetaPricePanel.BackgroundImage")));
+            this.SetaPricePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.SetaPricePanel.Controls.Add(this.label4);
             this.SetaPricePanel.Controls.Add(this.SetapricePrevious);
             this.SetaPricePanel.Controls.Add(this.label3);
@@ -588,7 +608,7 @@
             this.SetaPricePanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SetaPricePanel.Location = new System.Drawing.Point(0, 0);
             this.SetaPricePanel.Name = "SetaPricePanel";
-            this.SetaPricePanel.Size = new System.Drawing.Size(1607, 586);
+            this.SetaPricePanel.Size = new System.Drawing.Size(1605, 586);
             this.SetaPricePanel.TabIndex = 2;
             this.SetaPricePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
             // 
@@ -697,6 +717,8 @@
             // AddFilesPanel
             // 
             this.AddFilesPanel.BackColor = System.Drawing.Color.White;
+            this.AddFilesPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("AddFilesPanel.BackgroundImage")));
+            this.AddFilesPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.AddFilesPanel.Controls.Add(this.label6);
             this.AddFilesPanel.Controls.Add(this.label1);
             this.AddFilesPanel.Controls.Add(this.groupBox1);
@@ -705,7 +727,7 @@
             this.AddFilesPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddFilesPanel.Location = new System.Drawing.Point(0, 0);
             this.AddFilesPanel.Name = "AddFilesPanel";
-            this.AddFilesPanel.Size = new System.Drawing.Size(1607, 586);
+            this.AddFilesPanel.Size = new System.Drawing.Size(1605, 586);
             this.AddFilesPanel.TabIndex = 4;
             this.AddFilesPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
             // 
@@ -867,6 +889,8 @@
             // 
             // FindaWorkerPanel
             // 
+            this.FindaWorkerPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FindaWorkerPanel.BackgroundImage")));
+            this.FindaWorkerPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.FindaWorkerPanel.Controls.Add(this.label2);
             this.FindaWorkerPanel.Controls.Add(this.FindaWorkerGroupBox);
             this.FindaWorkerPanel.Controls.Add(this.FindaWorkerPrevious);
@@ -875,7 +899,7 @@
             this.FindaWorkerPanel.Location = new System.Drawing.Point(0, 0);
             this.FindaWorkerPanel.Name = "FindaWorkerPanel";
             this.FindaWorkerPanel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.FindaWorkerPanel.Size = new System.Drawing.Size(1607, 586);
+            this.FindaWorkerPanel.Size = new System.Drawing.Size(1605, 586);
             this.FindaWorkerPanel.TabIndex = 3;
             this.FindaWorkerPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
             // 
@@ -964,6 +988,9 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1822, 705);
             this.Controls.Add(this.splitContainer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "advancedSettingsDialog";
             this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Create Task Form";

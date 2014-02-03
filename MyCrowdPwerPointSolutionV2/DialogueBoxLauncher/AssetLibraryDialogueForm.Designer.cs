@@ -54,12 +54,16 @@
             // splitContainer1
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.IsSplitterFixed = true;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
             this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.splitContainer1.Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer1.Panel1.BackgroundImage")));
+            this.splitContainer1.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel1.Controls.Add(this.pictureBox1);
             this.splitContainer1.Panel1.Controls.Add(this.DocumentsButton);
             this.splitContainer1.Panel1.Controls.Add(this.ImagesButton);
@@ -69,6 +73,8 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("splitContainer1.Panel2.BackgroundImage")));
+            this.splitContainer1.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.splitContainer1.Panel2.Controls.Add(this.ListviewData);
             this.splitContainer1.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
@@ -94,7 +100,7 @@
             this.DocumentsButton.ForeColor = System.Drawing.Color.White;
             this.DocumentsButton.Location = new System.Drawing.Point(0, 242);
             this.DocumentsButton.Name = "DocumentsButton";
-            this.DocumentsButton.Size = new System.Drawing.Size(207, 53);
+            this.DocumentsButton.Size = new System.Drawing.Size(205, 53);
             this.DocumentsButton.TabIndex = 2;
             this.DocumentsButton.Text = "Documents ";
             this.DocumentsButton.UseVisualStyleBackColor = false;
@@ -108,7 +114,7 @@
             this.ImagesButton.ForeColor = System.Drawing.Color.White;
             this.ImagesButton.Location = new System.Drawing.Point(0, 180);
             this.ImagesButton.Name = "ImagesButton";
-            this.ImagesButton.Size = new System.Drawing.Size(207, 53);
+            this.ImagesButton.Size = new System.Drawing.Size(205, 53);
             this.ImagesButton.TabIndex = 0;
             this.ImagesButton.Text = "Image";
             this.ImagesButton.UseVisualStyleBackColor = false;
@@ -117,13 +123,13 @@
             // ListviewData
             // 
             this.ListviewData.BackColor = System.Drawing.Color.White;
-            this.ListviewData.BackgroundImageTiled = true;
+            this.ListviewData.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListviewData.ContextMenuStrip = this.contextMenuStrip1;
-            this.ListviewData.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ListviewData.Dock = System.Windows.Forms.DockStyle.Top;
             this.ListviewData.LargeImageList = this.LargeIcons;
             this.ListviewData.Location = new System.Drawing.Point(0, 0);
             this.ListviewData.Name = "ListviewData";
-            this.ListviewData.Size = new System.Drawing.Size(1607, 705);
+            this.ListviewData.Size = new System.Drawing.Size(1607, 680);
             this.ListviewData.SmallImageList = this.SmallIconsImagelist;
             this.ListviewData.TabIndex = 0;
             this.ListviewData.UseCompatibleStateImageBehavior = false;
@@ -223,9 +229,11 @@
             // 
             // AssetLibraryDialogueForm
             // 
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.ClientSize = new System.Drawing.Size(1822, 705);
             this.Controls.Add(this.splitContainer1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "AssetLibraryDialogueForm";
             this.Text = "AssetLibraryDialogueForm";
             this.Load += new System.EventHandler(this.AssetLibraryDialogueForm_Load);

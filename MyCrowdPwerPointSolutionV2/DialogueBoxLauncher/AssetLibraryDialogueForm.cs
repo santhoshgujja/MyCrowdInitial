@@ -27,6 +27,8 @@ namespace DialogueBoxLauncher
         public AssetLibraryDialogueForm()
         {
             InitializeComponent();
+            splitContainer1.SplitterDistance = ImagesButton.Size.Width + 3;
+
         }
 
         public IDictionary<string, string> fileNamePath = new Dictionary<string, string>();
@@ -268,21 +270,6 @@ namespace DialogueBoxLauncher
             ListviewData.Items.Add(new ListViewItem("request", 3));
             ListviewData.Items.Add(new ListViewItem("task", 4));
             ListviewData.Items.Add(new ListViewItem("worker", 5));
-
-                      
-            //ListviewData.Items.Clear();
-            //fileNamePath.Clear();
-            //path = elementPath;
-            //string[] files = Directory.GetFiles(path);
-            
-
-            //foreach (string file in files)
-            //{
-            //    string fileName = file.Substring(path.Length);
-            //    ListviewData.Items.Add(fileName);
-            //    fileNamePath.Add(fileName, path);
-            //}
-            //ListviewData.Activation = ItemActivation.Standard;
         }
 
         private void CodeButton_Click(object sender, EventArgs e)
@@ -318,20 +305,20 @@ namespace DialogueBoxLauncher
 
         private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
         {
-            ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
-                                       Color.Black, 1, ButtonBorderStyle.Inset,
-                                       Color.Black, 1, ButtonBorderStyle.Inset,
-                                       Color.Orange, 1615, ButtonBorderStyle.Solid,
-                                       Color.Black, 1, ButtonBorderStyle.Inset);
+            //ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
+            //                           Color.Black, 1, ButtonBorderStyle.Inset,
+            //                           Color.Black, 1, ButtonBorderStyle.Inset,
+            //                           Color.Orange, 1615, ButtonBorderStyle.Solid,
+            //                           Color.Black, 1, ButtonBorderStyle.Inset);
         }
 
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
         {
-            ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
-                                       Color.Black, 1, ButtonBorderStyle.Inset,
-                                       Color.Black, 1, ButtonBorderStyle.Inset,
-                                       Color.Orange, 1615, ButtonBorderStyle.Solid,
-                                       Color.Black, 1, ButtonBorderStyle.Inset);
+            //ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
+            //                           Color.Black, 1, ButtonBorderStyle.Inset,
+            //                           Color.Black, 1, ButtonBorderStyle.Inset,
+            //                           Color.Orange, 1615, ButtonBorderStyle.Solid,
+            //                           Color.Black, 1, ButtonBorderStyle.Inset);
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

@@ -37,7 +37,7 @@ namespace DialogueBoxLauncher
             InitializeComponent();
             PerformInitialSettings();
             CheckPowerpointrunning();
-           
+            splitContainer1.SplitterDistance = taskCategory.Size.Width + 3;
         }
 
         private void PerformInitialSettings()
@@ -544,9 +544,9 @@ namespace DialogueBoxLauncher
             Task task = new Task();
             task.Title = TaskNameTextBox.Text.ToString();
             task.JobType = (radioButton1.Checked) ? "design" :
-                           (radioButton2.Checked) ? "design" :
-                           (radioButton3.Checked) ? "design" :
-                                                    "design";
+                           (radioButton2.Checked) ? "web_development" :
+                           (radioButton3.Checked) ? "writing" :
+                                                    "research";
             task.Description = taskDescriptionText.Text.ToString();
             task.Visibility = "invite_only";
             task.TeamId = null;
@@ -972,33 +972,36 @@ namespace DialogueBoxLauncher
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             this.Close();
+                  //ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
+            //                            Color.White, 0, ButtonBorderStyle.Solid,
+            //                            Color.White, 0, ButtonBorderStyle.Solid,
+            //                            Color.Orange, 220, ButtonBorderStyle.Solid,
+            //                            Color.White, 0, ButtonBorderStyle.Solid);  
         }
 
         private void splitContainer2_Panel2_Paint(object sender, PaintEventArgs e)
         {
-            ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
-                                        Color.Black, 1, ButtonBorderStyle.Inset,
-                                        Color.Black, 1, ButtonBorderStyle.Inset,
-                                        Color.Orange, 1615, ButtonBorderStyle.Solid,
-                                        Color.Black, 1, ButtonBorderStyle.Inset);
+            //ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
+            //                            Color.Black, 1, ButtonBorderStyle.Inset,
+            //                            Color.Black, 1, ButtonBorderStyle.Inset,
+            //                            Color.Orange, 1615, ButtonBorderStyle.Inset,
+            //                            Color.Black, 1, ButtonBorderStyle.Inset);
+            //// Color.Orange, 1615, ButtonBorderStyle.Solid,
+                                     //   Color.Black, 1, ButtonBorderStyle.Inset);
         }
 
         private void Panels_Paint(object sender, PaintEventArgs e)
         {
-            ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
-                                        Color.White, 0, ButtonBorderStyle.Solid,
-                                        Color.White, 0, ButtonBorderStyle.Solid,
-                                        Color.Orange, 220, ButtonBorderStyle.Solid,
-                                        Color.Orange, 123, ButtonBorderStyle.Solid);
+            //ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
+            //                            Color.White, 0, ButtonBorderStyle.Solid,
+            //                            Color.White, 0, ButtonBorderStyle.Solid,
+            //                            Color.Orange, 220, ButtonBorderStyle.Solid,
+            //                            Color.Orange, 123, ButtonBorderStyle.Solid);
         }
 
         private void splitContainer2_Panel1_Paint(object sender, PaintEventArgs e)
         {
-            ControlPaint.DrawBorder(e.Graphics, ClientRectangle,
-                                        Color.White, 0, ButtonBorderStyle.Solid,
-                                        Color.White, 0, ButtonBorderStyle.Solid,
-                                        Color.Orange, 220, ButtonBorderStyle.Solid,
-                                        Color.White, 0, ButtonBorderStyle.Solid);
+
         }
 
         private void TaskNameTextBox_TextChanged(object sender, EventArgs e)
