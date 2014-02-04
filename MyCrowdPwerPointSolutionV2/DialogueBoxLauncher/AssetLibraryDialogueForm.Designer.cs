@@ -78,7 +78,7 @@
             this.splitContainer1.Panel2.Controls.Add(this.ListviewData);
             this.splitContainer1.Panel2.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.splitContainer1.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer1_Panel2_Paint);
-            this.splitContainer1.Size = new System.Drawing.Size(1822, 705);
+            this.splitContainer1.Size = new System.Drawing.Size(1222, 705);
             this.splitContainer1.SplitterDistance = 211;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -129,7 +129,7 @@
             this.ListviewData.LargeImageList = this.LargeIcons;
             this.ListviewData.Location = new System.Drawing.Point(0, 0);
             this.ListviewData.Name = "ListviewData";
-            this.ListviewData.Size = new System.Drawing.Size(1607, 680);
+            this.ListviewData.Size = new System.Drawing.Size(1007, 680);
             this.ListviewData.SmallImageList = this.SmallIconsImagelist;
             this.ListviewData.TabIndex = 0;
             this.ListviewData.UseCompatibleStateImageBehavior = false;
@@ -231,7 +231,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.ClientSize = new System.Drawing.Size(1822, 705);
+            this.ClientSize = new System.Drawing.Size(1222, 705);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Name = "AssetLibraryDialogueForm";

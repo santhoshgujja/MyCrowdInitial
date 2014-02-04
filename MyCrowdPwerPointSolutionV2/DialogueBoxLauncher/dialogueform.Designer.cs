@@ -42,36 +42,13 @@
             this.label8 = new System.Windows.Forms.Label();
             this.TaskNameTextBox = new System.Windows.Forms.TextBox();
             this.TaskNameLabel = new System.Windows.Forms.Label();
-            this.TaskCategoryPanel = new System.Windows.Forms.Panel();
-            this.TaskCategorylabel = new System.Windows.Forms.Label();
-            this.TaskCategoryGroupBox = new System.Windows.Forms.GroupBox();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.TaskCategoryNext = new System.Windows.Forms.Button();
-            this.DescribeTheTaskPanel = new System.Windows.Forms.Panel();
-            this.taskDescriptionText = new System.Windows.Forms.TextBox();
-            this.Describethetasklabel = new System.Windows.Forms.Label();
-            this.DescribeTaskPrevious = new System.Windows.Forms.Button();
-            this.DescribeTaskNext = new System.Windows.Forms.Button();
-            this.ConfirmPanel = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.ConfirmCheckBox = new System.Windows.Forms.CheckBox();
-            this.ConfirmCancel = new System.Windows.Forms.Button();
-            this.ConfirmSaveDraft = new System.Windows.Forms.Button();
-            this.ConfirmPublishTask = new System.Windows.Forms.Button();
-            this.SetaPricePanel = new System.Windows.Forms.Panel();
-            this.label4 = new System.Windows.Forms.Label();
-            this.SetapricePrevious = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.SetaPriceGroupBox = new System.Windows.Forms.GroupBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.SetaPricelabel = new System.Windows.Forms.Label();
-            this.SetaPricePriceValue = new System.Windows.Forms.NumericUpDown();
-            this.SetaPriceCouponCode = new System.Windows.Forms.TextBox();
-            this.SetaPriceNext = new System.Windows.Forms.Button();
+            this.FindaWorkerPanel = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.FindaWorkerGroupBox = new System.Windows.Forms.GroupBox();
+            this.FindaWorkerRadio3 = new System.Windows.Forms.RadioButton();
+            this.FindaWorkerRadio2 = new System.Windows.Forms.RadioButton();
+            this.FindaWorkerPrevious = new System.Windows.Forms.Button();
+            this.FindaWorkerNext = new System.Windows.Forms.Button();
             this.AddFilesPanel = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -87,13 +64,36 @@
             this.AddFilesUploadFile = new System.Windows.Forms.Button();
             this.AddFilesNext = new System.Windows.Forms.Button();
             this.AddFilesPrevious = new System.Windows.Forms.Button();
-            this.FindaWorkerPanel = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.FindaWorkerGroupBox = new System.Windows.Forms.GroupBox();
-            this.FindaWorkerRadio3 = new System.Windows.Forms.RadioButton();
-            this.FindaWorkerRadio2 = new System.Windows.Forms.RadioButton();
-            this.FindaWorkerPrevious = new System.Windows.Forms.Button();
-            this.FindaWorkerNext = new System.Windows.Forms.Button();
+            this.SetaPricePanel = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.SetapricePrevious = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.SetaPriceGroupBox = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.SetaPricelabel = new System.Windows.Forms.Label();
+            this.SetaPricePriceValue = new System.Windows.Forms.NumericUpDown();
+            this.SetaPriceCouponCode = new System.Windows.Forms.TextBox();
+            this.SetaPriceNext = new System.Windows.Forms.Button();
+            this.ConfirmPanel = new System.Windows.Forms.Panel();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.ConfirmCheckBox = new System.Windows.Forms.CheckBox();
+            this.ConfirmCancel = new System.Windows.Forms.Button();
+            this.ConfirmSaveDraft = new System.Windows.Forms.Button();
+            this.ConfirmPublishTask = new System.Windows.Forms.Button();
+            this.DescribeTheTaskPanel = new System.Windows.Forms.Panel();
+            this.taskDescriptionText = new System.Windows.Forms.TextBox();
+            this.Describethetasklabel = new System.Windows.Forms.Label();
+            this.DescribeTaskPrevious = new System.Windows.Forms.Button();
+            this.DescribeTaskNext = new System.Windows.Forms.Button();
+            this.TaskCategoryPanel = new System.Windows.Forms.Panel();
+            this.TaskCategorylabel = new System.Windows.Forms.Label();
+            this.TaskCategoryGroupBox = new System.Windows.Forms.GroupBox();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.TaskCategoryNext = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -104,18 +104,18 @@
             this.splitContainer2.Panel2.SuspendLayout();
             this.splitContainer2.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.TaskCategoryPanel.SuspendLayout();
-            this.TaskCategoryGroupBox.SuspendLayout();
-            this.DescribeTheTaskPanel.SuspendLayout();
-            this.ConfirmPanel.SuspendLayout();
+            this.FindaWorkerPanel.SuspendLayout();
+            this.FindaWorkerGroupBox.SuspendLayout();
+            this.AddFilesPanel.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SetaPricePanel.SuspendLayout();
             this.SetaPriceGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.SetaPricePriceValue)).BeginInit();
-            this.AddFilesPanel.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.FindaWorkerPanel.SuspendLayout();
-            this.FindaWorkerGroupBox.SuspendLayout();
+            this.ConfirmPanel.SuspendLayout();
+            this.DescribeTheTaskPanel.SuspendLayout();
+            this.TaskCategoryPanel.SuspendLayout();
+            this.TaskCategoryGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // taskCategory
@@ -240,7 +240,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(1822, 705);
+            this.splitContainer1.Size = new System.Drawing.Size(1222, 705);
             this.splitContainer1.SplitterDistance = 213;
             this.splitContainer1.TabIndex = 8;
             // 
@@ -280,7 +280,7 @@
             this.splitContainer2.Panel2.Controls.Add(this.DescribeTheTaskPanel);
             this.splitContainer2.Panel2.Controls.Add(this.TaskCategoryPanel);
             this.splitContainer2.Panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel2_Paint);
-            this.splitContainer2.Size = new System.Drawing.Size(1605, 705);
+            this.splitContainer2.Size = new System.Drawing.Size(1005, 705);
             this.splitContainer2.SplitterDistance = 115;
             this.splitContainer2.TabIndex = 0;
             // 
@@ -292,7 +292,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1605, 51);
+            this.panel1.Size = new System.Drawing.Size(1005, 51);
             this.panel1.TabIndex = 2;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.splitContainer2_Panel1_Paint);
             // 
@@ -325,394 +325,99 @@
             this.TaskNameLabel.TabIndex = 0;
             this.TaskNameLabel.Text = "Please Enter Task Name ";
             // 
-            // TaskCategoryPanel
+            // FindaWorkerPanel
             // 
-            this.TaskCategoryPanel.BackColor = System.Drawing.Color.White;
-            this.TaskCategoryPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TaskCategoryPanel.BackgroundImage")));
-            this.TaskCategoryPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.TaskCategoryPanel.Controls.Add(this.TaskCategorylabel);
-            this.TaskCategoryPanel.Controls.Add(this.TaskCategoryGroupBox);
-            this.TaskCategoryPanel.Controls.Add(this.TaskCategoryNext);
-            this.TaskCategoryPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TaskCategoryPanel.Location = new System.Drawing.Point(0, 0);
-            this.TaskCategoryPanel.Name = "TaskCategoryPanel";
-            this.TaskCategoryPanel.Size = new System.Drawing.Size(1605, 586);
-            this.TaskCategoryPanel.TabIndex = 0;
-            this.TaskCategoryPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
+            this.FindaWorkerPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FindaWorkerPanel.BackgroundImage")));
+            this.FindaWorkerPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.FindaWorkerPanel.Controls.Add(this.label2);
+            this.FindaWorkerPanel.Controls.Add(this.FindaWorkerGroupBox);
+            this.FindaWorkerPanel.Controls.Add(this.FindaWorkerPrevious);
+            this.FindaWorkerPanel.Controls.Add(this.FindaWorkerNext);
+            this.FindaWorkerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.FindaWorkerPanel.Location = new System.Drawing.Point(0, 0);
+            this.FindaWorkerPanel.Name = "FindaWorkerPanel";
+            this.FindaWorkerPanel.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.FindaWorkerPanel.Size = new System.Drawing.Size(1005, 586);
+            this.FindaWorkerPanel.TabIndex = 3;
+            this.FindaWorkerPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
             // 
-            // TaskCategorylabel
+            // label2
             // 
-            this.TaskCategorylabel.AutoSize = true;
-            this.TaskCategorylabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TaskCategorylabel.ForeColor = System.Drawing.Color.Red;
-            this.TaskCategorylabel.Location = new System.Drawing.Point(335, 32);
-            this.TaskCategorylabel.Name = "TaskCategorylabel";
-            this.TaskCategorylabel.Size = new System.Drawing.Size(131, 22);
-            this.TaskCategorylabel.TabIndex = 1;
-            this.TaskCategorylabel.Text = "Task Category";
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Calibri", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(287, 26);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(203, 40);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Find a Worker";
             // 
-            // TaskCategoryGroupBox
+            // FindaWorkerGroupBox
             // 
-            this.TaskCategoryGroupBox.Controls.Add(this.radioButton4);
-            this.TaskCategoryGroupBox.Controls.Add(this.radioButton3);
-            this.TaskCategoryGroupBox.Controls.Add(this.radioButton2);
-            this.TaskCategoryGroupBox.Controls.Add(this.radioButton1);
-            this.TaskCategoryGroupBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TaskCategoryGroupBox.Location = new System.Drawing.Point(187, 67);
-            this.TaskCategoryGroupBox.Margin = new System.Windows.Forms.Padding(0);
-            this.TaskCategoryGroupBox.Name = "TaskCategoryGroupBox";
-            this.TaskCategoryGroupBox.Size = new System.Drawing.Size(660, 271);
-            this.TaskCategoryGroupBox.TabIndex = 1;
-            this.TaskCategoryGroupBox.TabStop = false;
+            this.FindaWorkerGroupBox.Controls.Add(this.FindaWorkerRadio3);
+            this.FindaWorkerGroupBox.Controls.Add(this.FindaWorkerRadio2);
+            this.FindaWorkerGroupBox.Location = new System.Drawing.Point(141, 75);
+            this.FindaWorkerGroupBox.Name = "FindaWorkerGroupBox";
+            this.FindaWorkerGroupBox.Size = new System.Drawing.Size(569, 141);
+            this.FindaWorkerGroupBox.TabIndex = 2;
+            this.FindaWorkerGroupBox.TabStop = false;
             // 
-            // radioButton4
+            // FindaWorkerRadio3
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(65, 200);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(458, 38);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Research\r\nWeb research, market research, competitive and scientific research.";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            this.radioButton4.Click += new System.EventHandler(this.TaskCategory_radiobutton_Click);
-            this.radioButton4.MouseEnter += new System.EventHandler(this.radioButton4_MouseEnter);
-            this.radioButton4.MouseLeave += new System.EventHandler(this.radioButton4_MouseLeave);
+            this.FindaWorkerRadio3.AutoSize = true;
+            this.FindaWorkerRadio3.Location = new System.Drawing.Point(60, 81);
+            this.FindaWorkerRadio3.Name = "FindaWorkerRadio3";
+            this.FindaWorkerRadio3.Size = new System.Drawing.Size(309, 21);
+            this.FindaWorkerRadio3.TabIndex = 2;
+            this.FindaWorkerRadio3.TabStop = true;
+            this.FindaWorkerRadio3.Text = "Post Task Privately and Invite Workers Later";
+            this.FindaWorkerRadio3.UseVisualStyleBackColor = true;
+            this.FindaWorkerRadio3.Click += new System.EventHandler(this.FindaWorker_radioButton_Click);
+            this.FindaWorkerRadio3.MouseEnter += new System.EventHandler(this.FindaWorkerRadio3_MouseEnter);
+            this.FindaWorkerRadio3.MouseLeave += new System.EventHandler(this.FindaWorkerRadio3_MouseLeave);
             // 
-            // radioButton3
+            // FindaWorkerRadio2
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(65, 145);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(478, 38);
-            this.radioButton3.TabIndex = 2;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "CopyWriting and Translation\r\nCopywriting,proof reading, ad writing, transcription" +
-    ", translation services.";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.Click += new System.EventHandler(this.TaskCategory_radiobutton_Click);
-            this.radioButton3.MouseEnter += new System.EventHandler(this.radioButton3_MouseEnter);
-            this.radioButton3.MouseLeave += new System.EventHandler(this.radioButton3_MouseLeave);
+            this.FindaWorkerRadio2.AutoSize = true;
+            this.FindaWorkerRadio2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.FindaWorkerRadio2.Location = new System.Drawing.Point(60, 43);
+            this.FindaWorkerRadio2.Name = "FindaWorkerRadio2";
+            this.FindaWorkerRadio2.Size = new System.Drawing.Size(322, 21);
+            this.FindaWorkerRadio2.TabIndex = 1;
+            this.FindaWorkerRadio2.TabStop = true;
+            this.FindaWorkerRadio2.Text = "Post task publicly and wait for workers to apply";
+            this.FindaWorkerRadio2.UseVisualStyleBackColor = true;
+            this.FindaWorkerRadio2.CheckedChanged += new System.EventHandler(this.FindaWorkerRadio2_CheckedChanged);
+            this.FindaWorkerRadio2.Click += new System.EventHandler(this.FindaWorker_radioButton_Click);
+            this.FindaWorkerRadio2.MouseEnter += new System.EventHandler(this.FindaWorkerRadio2_MouseEnter);
+            this.FindaWorkerRadio2.MouseLeave += new System.EventHandler(this.FindaWorkerRadio2_MouseLeave);
             // 
-            // radioButton2
+            // FindaWorkerPrevious
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(65, 89);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(486, 38);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Code\r\nProgramming and development.For example JavaScript, Ruby, and .NET";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.Click += new System.EventHandler(this.TaskCategory_radiobutton_Click);
-            this.radioButton2.MouseEnter += new System.EventHandler(this.radioButton2_MouseEnter);
-            this.radioButton2.MouseLeave += new System.EventHandler(this.radioButton2_MouseLeave);
+            this.FindaWorkerPrevious.BackColor = System.Drawing.Color.Silver;
+            this.FindaWorkerPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FindaWorkerPrevious.ForeColor = System.Drawing.Color.White;
+            this.FindaWorkerPrevious.Location = new System.Drawing.Point(277, 238);
+            this.FindaWorkerPrevious.Name = "FindaWorkerPrevious";
+            this.FindaWorkerPrevious.Size = new System.Drawing.Size(130, 33);
+            this.FindaWorkerPrevious.TabIndex = 1;
+            this.FindaWorkerPrevious.Text = "Previous";
+            this.FindaWorkerPrevious.UseVisualStyleBackColor = false;
+            this.FindaWorkerPrevious.Click += new System.EventHandler(this.FindaWorkerPrevious_Click);
             // 
-            // radioButton1
+            // FindaWorkerNext
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
-            this.radioButton1.Location = new System.Drawing.Point(65, 30);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(555, 38);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Creative\r\nDesign related tasks such as logos,webpages,Powerpoint themes or graphi" +
-    "c design";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.Click += new System.EventHandler(this.TaskCategory_radiobutton_Click);
-            this.radioButton1.MouseEnter += new System.EventHandler(this.radioButton1_MouseEnter);
-            this.radioButton1.MouseLeave += new System.EventHandler(this.radioButton1_MouseLeave);
-            this.radioButton1.MouseHover += new System.EventHandler(this.radioButton1_MouseHover);
-            // 
-            // TaskCategoryNext
-            // 
-            this.TaskCategoryNext.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.TaskCategoryNext.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.TaskCategoryNext.FlatAppearance.BorderSize = 0;
-            this.TaskCategoryNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.TaskCategoryNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.TaskCategoryNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.TaskCategoryNext.Location = new System.Drawing.Point(394, 363);
-            this.TaskCategoryNext.Name = "TaskCategoryNext";
-            this.TaskCategoryNext.Size = new System.Drawing.Size(117, 33);
-            this.TaskCategoryNext.TabIndex = 0;
-            this.TaskCategoryNext.Text = "Next";
-            this.TaskCategoryNext.UseVisualStyleBackColor = false;
-            this.TaskCategoryNext.Click += new System.EventHandler(this.TaskCategoryNext_Click);
-            // 
-            // DescribeTheTaskPanel
-            // 
-            this.DescribeTheTaskPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DescribeTheTaskPanel.BackgroundImage")));
-            this.DescribeTheTaskPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.DescribeTheTaskPanel.Controls.Add(this.taskDescriptionText);
-            this.DescribeTheTaskPanel.Controls.Add(this.Describethetasklabel);
-            this.DescribeTheTaskPanel.Controls.Add(this.DescribeTaskPrevious);
-            this.DescribeTheTaskPanel.Controls.Add(this.DescribeTaskNext);
-            this.DescribeTheTaskPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DescribeTheTaskPanel.Location = new System.Drawing.Point(0, 0);
-            this.DescribeTheTaskPanel.Name = "DescribeTheTaskPanel";
-            this.DescribeTheTaskPanel.Size = new System.Drawing.Size(1605, 586);
-            this.DescribeTheTaskPanel.TabIndex = 1;
-            this.DescribeTheTaskPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
-            // 
-            // taskDescriptionText
-            // 
-            this.taskDescriptionText.Location = new System.Drawing.Point(141, 80);
-            this.taskDescriptionText.Multiline = true;
-            this.taskDescriptionText.Name = "taskDescriptionText";
-            this.taskDescriptionText.Size = new System.Drawing.Size(641, 200);
-            this.taskDescriptionText.TabIndex = 5;
-            this.taskDescriptionText.TextChanged += new System.EventHandler(this.taskDescriptionText_TextChanged);
-            // 
-            // Describethetasklabel
-            // 
-            this.Describethetasklabel.AutoSize = true;
-            this.Describethetasklabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Describethetasklabel.ForeColor = System.Drawing.Color.Red;
-            this.Describethetasklabel.Location = new System.Drawing.Point(282, 39);
-            this.Describethetasklabel.Name = "Describethetasklabel";
-            this.Describethetasklabel.Size = new System.Drawing.Size(162, 22);
-            this.Describethetasklabel.TabIndex = 4;
-            this.Describethetasklabel.Text = "Describe the Task";
-            // 
-            // DescribeTaskPrevious
-            // 
-            this.DescribeTaskPrevious.BackColor = System.Drawing.Color.Silver;
-            this.DescribeTaskPrevious.FlatAppearance.BorderSize = 0;
-            this.DescribeTaskPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DescribeTaskPrevious.ForeColor = System.Drawing.Color.White;
-            this.DescribeTaskPrevious.Location = new System.Drawing.Point(286, 286);
-            this.DescribeTaskPrevious.Name = "DescribeTaskPrevious";
-            this.DescribeTaskPrevious.Size = new System.Drawing.Size(114, 34);
-            this.DescribeTaskPrevious.TabIndex = 3;
-            this.DescribeTaskPrevious.Text = "Previous";
-            this.DescribeTaskPrevious.UseVisualStyleBackColor = false;
-            this.DescribeTaskPrevious.Click += new System.EventHandler(this.DescribeTaskPrevious_Click);
-            // 
-            // DescribeTaskNext
-            // 
-            this.DescribeTaskNext.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.DescribeTaskNext.FlatAppearance.BorderSize = 0;
-            this.DescribeTaskNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.DescribeTaskNext.ForeColor = System.Drawing.Color.White;
-            this.DescribeTaskNext.Location = new System.Drawing.Point(407, 285);
-            this.DescribeTaskNext.Name = "DescribeTaskNext";
-            this.DescribeTaskNext.Size = new System.Drawing.Size(104, 34);
-            this.DescribeTaskNext.TabIndex = 2;
-            this.DescribeTaskNext.Text = "Next";
-            this.DescribeTaskNext.UseVisualStyleBackColor = false;
-            this.DescribeTaskNext.Click += new System.EventHandler(this.DescribeTaskNext_Click);
-            // 
-            // ConfirmPanel
-            // 
-            this.ConfirmPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ConfirmPanel.BackgroundImage")));
-            this.ConfirmPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ConfirmPanel.Controls.Add(this.label7);
-            this.ConfirmPanel.Controls.Add(this.label5);
-            this.ConfirmPanel.Controls.Add(this.ConfirmCheckBox);
-            this.ConfirmPanel.Controls.Add(this.ConfirmCancel);
-            this.ConfirmPanel.Controls.Add(this.ConfirmSaveDraft);
-            this.ConfirmPanel.Controls.Add(this.ConfirmPublishTask);
-            this.ConfirmPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ConfirmPanel.Location = new System.Drawing.Point(0, 0);
-            this.ConfirmPanel.Name = "ConfirmPanel";
-            this.ConfirmPanel.Size = new System.Drawing.Size(1605, 586);
-            this.ConfirmPanel.TabIndex = 3;
-            this.ConfirmPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.Red;
-            this.label7.Location = new System.Drawing.Point(398, 153);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(112, 17);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "terms of service.";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Red;
-            this.label5.Location = new System.Drawing.Point(284, 98);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(182, 22);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Confirming the Task.";
-            // 
-            // ConfirmCheckBox
-            // 
-            this.ConfirmCheckBox.AutoSize = true;
-            this.ConfirmCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConfirmCheckBox.Location = new System.Drawing.Point(251, 153);
-            this.ConfirmCheckBox.Name = "ConfirmCheckBox";
-            this.ConfirmCheckBox.Size = new System.Drawing.Size(154, 19);
-            this.ConfirmCheckBox.TabIndex = 3;
-            this.ConfirmCheckBox.Text = "I agree to the MyCrowd";
-            this.ConfirmCheckBox.UseVisualStyleBackColor = true;
-            this.ConfirmCheckBox.CheckedChanged += new System.EventHandler(this.ConfirmCheckBox_CheckedChanged);
-            // 
-            // ConfirmCancel
-            // 
-            this.ConfirmCancel.BackColor = System.Drawing.Color.Silver;
-            this.ConfirmCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ConfirmCancel.ForeColor = System.Drawing.Color.White;
-            this.ConfirmCancel.Location = new System.Drawing.Point(474, 207);
-            this.ConfirmCancel.Name = "ConfirmCancel";
-            this.ConfirmCancel.Size = new System.Drawing.Size(79, 33);
-            this.ConfirmCancel.TabIndex = 2;
-            this.ConfirmCancel.Text = "Cancel";
-            this.ConfirmCancel.UseVisualStyleBackColor = false;
-            this.ConfirmCancel.Click += new System.EventHandler(this.ConfirmCancel_Click);
-            // 
-            // ConfirmSaveDraft
-            // 
-            this.ConfirmSaveDraft.BackColor = System.Drawing.Color.Silver;
-            this.ConfirmSaveDraft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ConfirmSaveDraft.ForeColor = System.Drawing.Color.White;
-            this.ConfirmSaveDraft.Location = new System.Drawing.Point(361, 207);
-            this.ConfirmSaveDraft.Name = "ConfirmSaveDraft";
-            this.ConfirmSaveDraft.Size = new System.Drawing.Size(107, 34);
-            this.ConfirmSaveDraft.TabIndex = 1;
-            this.ConfirmSaveDraft.Text = "Save Draft";
-            this.ConfirmSaveDraft.UseVisualStyleBackColor = false;
-            this.ConfirmSaveDraft.Click += new System.EventHandler(this.ConfirmSaveDraft_Click);
-            // 
-            // ConfirmPublishTask
-            // 
-            this.ConfirmPublishTask.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ConfirmPublishTask.FlatAppearance.BorderSize = 0;
-            this.ConfirmPublishTask.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ConfirmPublishTask.ForeColor = System.Drawing.Color.White;
-            this.ConfirmPublishTask.Location = new System.Drawing.Point(244, 208);
-            this.ConfirmPublishTask.Name = "ConfirmPublishTask";
-            this.ConfirmPublishTask.Size = new System.Drawing.Size(111, 33);
-            this.ConfirmPublishTask.TabIndex = 0;
-            this.ConfirmPublishTask.Text = "Publish Task";
-            this.ConfirmPublishTask.UseVisualStyleBackColor = false;
-            this.ConfirmPublishTask.Click += new System.EventHandler(this.ConfirmPublishTask_Click);
-            // 
-            // SetaPricePanel
-            // 
-            this.SetaPricePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SetaPricePanel.BackgroundImage")));
-            this.SetaPricePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.SetaPricePanel.Controls.Add(this.label4);
-            this.SetaPricePanel.Controls.Add(this.SetapricePrevious);
-            this.SetaPricePanel.Controls.Add(this.label3);
-            this.SetaPricePanel.Controls.Add(this.SetaPriceGroupBox);
-            this.SetaPricePanel.Controls.Add(this.SetaPriceCouponCode);
-            this.SetaPricePanel.Controls.Add(this.SetaPriceNext);
-            this.SetaPricePanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SetaPricePanel.Location = new System.Drawing.Point(0, 0);
-            this.SetaPricePanel.Name = "SetaPricePanel";
-            this.SetaPricePanel.Size = new System.Drawing.Size(1605, 586);
-            this.SetaPricePanel.TabIndex = 2;
-            this.SetaPricePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(242, 32);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(103, 22);
-            this.label4.TabIndex = 9;
-            this.label4.Text = "Set a Price";
-            // 
-            // SetapricePrevious
-            // 
-            this.SetapricePrevious.BackColor = System.Drawing.Color.Silver;
-            this.SetapricePrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SetapricePrevious.ForeColor = System.Drawing.Color.White;
-            this.SetapricePrevious.Location = new System.Drawing.Point(244, 291);
-            this.SetapricePrevious.Name = "SetapricePrevious";
-            this.SetapricePrevious.Size = new System.Drawing.Size(118, 40);
-            this.SetapricePrevious.TabIndex = 8;
-            this.SetapricePrevious.Text = "Previous";
-            this.SetapricePrevious.UseVisualStyleBackColor = false;
-            this.SetapricePrevious.Click += new System.EventHandler(this.SetapricePrevious_Click_1);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(240, 219);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(129, 22);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Coupon Code";
-            // 
-            // SetaPriceGroupBox
-            // 
-            this.SetaPriceGroupBox.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.SetaPriceGroupBox.Controls.Add(this.pictureBox1);
-            this.SetaPriceGroupBox.Controls.Add(this.SetaPricelabel);
-            this.SetaPriceGroupBox.Controls.Add(this.SetaPricePriceValue);
-            this.SetaPriceGroupBox.Location = new System.Drawing.Point(75, 80);
-            this.SetaPriceGroupBox.Name = "SetaPriceGroupBox";
-            this.SetaPriceGroupBox.Size = new System.Drawing.Size(600, 114);
-            this.SetaPriceGroupBox.TabIndex = 6;
-            this.SetaPriceGroupBox.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(19, 29);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(151, 51);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
-            // SetaPricelabel
-            // 
-            this.SetaPricelabel.AutoSize = true;
-            this.SetaPricelabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SetaPricelabel.ForeColor = System.Drawing.Color.White;
-            this.SetaPricelabel.Location = new System.Drawing.Point(176, 36);
-            this.SetaPricelabel.Name = "SetaPricelabel";
-            this.SetaPricelabel.Size = new System.Drawing.Size(248, 34);
-            this.SetaPricelabel.TabIndex = 4;
-            this.SetaPricelabel.Text = "Fixed Price \r\nPay a pre-defined sum for the project";
-            // 
-            // SetaPricePriceValue
-            // 
-            this.SetaPricePriceValue.Location = new System.Drawing.Point(430, 48);
-            this.SetaPricePriceValue.Name = "SetaPricePriceValue";
-            this.SetaPricePriceValue.Size = new System.Drawing.Size(140, 22);
-            this.SetaPricePriceValue.TabIndex = 2;
-            this.SetaPricePriceValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.SetaPricePriceValue.Value = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.SetaPricePriceValue.ValueChanged += new System.EventHandler(this.SetaPricePriceValue_ValueChanged);
-            // 
-            // SetaPriceCouponCode
-            // 
-            this.SetaPriceCouponCode.Location = new System.Drawing.Point(91, 218);
-            this.SetaPriceCouponCode.Multiline = true;
-            this.SetaPriceCouponCode.Name = "SetaPriceCouponCode";
-            this.SetaPriceCouponCode.Size = new System.Drawing.Size(137, 39);
-            this.SetaPriceCouponCode.TabIndex = 3;
-            // 
-            // SetaPriceNext
-            // 
-            this.SetaPriceNext.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.SetaPriceNext.FlatAppearance.BorderSize = 0;
-            this.SetaPriceNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SetaPriceNext.Location = new System.Drawing.Point(372, 291);
-            this.SetaPriceNext.Name = "SetaPriceNext";
-            this.SetaPriceNext.Size = new System.Drawing.Size(117, 40);
-            this.SetaPriceNext.TabIndex = 1;
-            this.SetaPriceNext.Text = "Next";
-            this.SetaPriceNext.UseVisualStyleBackColor = false;
-            this.SetaPriceNext.Click += new System.EventHandler(this.SetaPriceNext_Click);
+            this.FindaWorkerNext.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.FindaWorkerNext.FlatAppearance.BorderSize = 0;
+            this.FindaWorkerNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FindaWorkerNext.ForeColor = System.Drawing.Color.White;
+            this.FindaWorkerNext.Location = new System.Drawing.Point(416, 238);
+            this.FindaWorkerNext.Name = "FindaWorkerNext";
+            this.FindaWorkerNext.Size = new System.Drawing.Size(83, 33);
+            this.FindaWorkerNext.TabIndex = 0;
+            this.FindaWorkerNext.Text = "Next";
+            this.FindaWorkerNext.UseVisualStyleBackColor = false;
+            this.FindaWorkerNext.Click += new System.EventHandler(this.FindaWorkerNext_Click);
             // 
             // AddFilesPanel
             // 
@@ -727,7 +432,7 @@
             this.AddFilesPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.AddFilesPanel.Location = new System.Drawing.Point(0, 0);
             this.AddFilesPanel.Name = "AddFilesPanel";
-            this.AddFilesPanel.Size = new System.Drawing.Size(1605, 586);
+            this.AddFilesPanel.Size = new System.Drawing.Size(1005, 586);
             this.AddFilesPanel.TabIndex = 4;
             this.AddFilesPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
             // 
@@ -887,112 +592,407 @@
             this.AddFilesPrevious.UseVisualStyleBackColor = false;
             this.AddFilesPrevious.Click += new System.EventHandler(this.AddFilesPrevious_Click);
             // 
-            // FindaWorkerPanel
+            // SetaPricePanel
             // 
-            this.FindaWorkerPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FindaWorkerPanel.BackgroundImage")));
-            this.FindaWorkerPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.FindaWorkerPanel.Controls.Add(this.label2);
-            this.FindaWorkerPanel.Controls.Add(this.FindaWorkerGroupBox);
-            this.FindaWorkerPanel.Controls.Add(this.FindaWorkerPrevious);
-            this.FindaWorkerPanel.Controls.Add(this.FindaWorkerNext);
-            this.FindaWorkerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FindaWorkerPanel.Location = new System.Drawing.Point(0, 0);
-            this.FindaWorkerPanel.Name = "FindaWorkerPanel";
-            this.FindaWorkerPanel.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.FindaWorkerPanel.Size = new System.Drawing.Size(1605, 586);
-            this.FindaWorkerPanel.TabIndex = 3;
-            this.FindaWorkerPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
+            this.SetaPricePanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SetaPricePanel.BackgroundImage")));
+            this.SetaPricePanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.SetaPricePanel.Controls.Add(this.label4);
+            this.SetaPricePanel.Controls.Add(this.SetapricePrevious);
+            this.SetaPricePanel.Controls.Add(this.label3);
+            this.SetaPricePanel.Controls.Add(this.SetaPriceGroupBox);
+            this.SetaPricePanel.Controls.Add(this.SetaPriceCouponCode);
+            this.SetaPricePanel.Controls.Add(this.SetaPriceNext);
+            this.SetaPricePanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.SetaPricePanel.Location = new System.Drawing.Point(0, 0);
+            this.SetaPricePanel.Name = "SetaPricePanel";
+            this.SetaPricePanel.Size = new System.Drawing.Size(1005, 586);
+            this.SetaPricePanel.TabIndex = 2;
+            this.SetaPricePanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
             // 
-            // label2
+            // label4
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Calibri", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(287, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(203, 40);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Find a Worker";
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Red;
+            this.label4.Location = new System.Drawing.Point(242, 32);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 22);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Set a Price";
             // 
-            // FindaWorkerGroupBox
+            // SetapricePrevious
             // 
-            this.FindaWorkerGroupBox.Controls.Add(this.FindaWorkerRadio3);
-            this.FindaWorkerGroupBox.Controls.Add(this.FindaWorkerRadio2);
-            this.FindaWorkerGroupBox.Location = new System.Drawing.Point(141, 75);
-            this.FindaWorkerGroupBox.Name = "FindaWorkerGroupBox";
-            this.FindaWorkerGroupBox.Size = new System.Drawing.Size(569, 141);
-            this.FindaWorkerGroupBox.TabIndex = 2;
-            this.FindaWorkerGroupBox.TabStop = false;
+            this.SetapricePrevious.BackColor = System.Drawing.Color.Silver;
+            this.SetapricePrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SetapricePrevious.ForeColor = System.Drawing.Color.White;
+            this.SetapricePrevious.Location = new System.Drawing.Point(244, 291);
+            this.SetapricePrevious.Name = "SetapricePrevious";
+            this.SetapricePrevious.Size = new System.Drawing.Size(118, 40);
+            this.SetapricePrevious.TabIndex = 8;
+            this.SetapricePrevious.Text = "Previous";
+            this.SetapricePrevious.UseVisualStyleBackColor = false;
+            this.SetapricePrevious.Click += new System.EventHandler(this.SetapricePrevious_Click_1);
             // 
-            // FindaWorkerRadio3
+            // label3
             // 
-            this.FindaWorkerRadio3.AutoSize = true;
-            this.FindaWorkerRadio3.Location = new System.Drawing.Point(60, 81);
-            this.FindaWorkerRadio3.Name = "FindaWorkerRadio3";
-            this.FindaWorkerRadio3.Size = new System.Drawing.Size(309, 21);
-            this.FindaWorkerRadio3.TabIndex = 2;
-            this.FindaWorkerRadio3.TabStop = true;
-            this.FindaWorkerRadio3.Text = "Post Task Privately and Invite Workers Later";
-            this.FindaWorkerRadio3.UseVisualStyleBackColor = true;
-            this.FindaWorkerRadio3.Click += new System.EventHandler(this.FindaWorker_radioButton_Click);
-            this.FindaWorkerRadio3.MouseEnter += new System.EventHandler(this.FindaWorkerRadio3_MouseEnter);
-            this.FindaWorkerRadio3.MouseLeave += new System.EventHandler(this.FindaWorkerRadio3_MouseLeave);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Red;
+            this.label3.Location = new System.Drawing.Point(240, 219);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(129, 22);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Coupon Code";
             // 
-            // FindaWorkerRadio2
+            // SetaPriceGroupBox
             // 
-            this.FindaWorkerRadio2.AutoSize = true;
-            this.FindaWorkerRadio2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.FindaWorkerRadio2.Location = new System.Drawing.Point(60, 43);
-            this.FindaWorkerRadio2.Name = "FindaWorkerRadio2";
-            this.FindaWorkerRadio2.Size = new System.Drawing.Size(322, 21);
-            this.FindaWorkerRadio2.TabIndex = 1;
-            this.FindaWorkerRadio2.TabStop = true;
-            this.FindaWorkerRadio2.Text = "Post task publicly and wait for workers to apply";
-            this.FindaWorkerRadio2.UseVisualStyleBackColor = true;
-            this.FindaWorkerRadio2.CheckedChanged += new System.EventHandler(this.FindaWorkerRadio2_CheckedChanged);
-            this.FindaWorkerRadio2.Click += new System.EventHandler(this.FindaWorker_radioButton_Click);
-            this.FindaWorkerRadio2.MouseEnter += new System.EventHandler(this.FindaWorkerRadio2_MouseEnter);
-            this.FindaWorkerRadio2.MouseLeave += new System.EventHandler(this.FindaWorkerRadio2_MouseLeave);
+            this.SetaPriceGroupBox.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.SetaPriceGroupBox.Controls.Add(this.pictureBox1);
+            this.SetaPriceGroupBox.Controls.Add(this.SetaPricelabel);
+            this.SetaPriceGroupBox.Controls.Add(this.SetaPricePriceValue);
+            this.SetaPriceGroupBox.Location = new System.Drawing.Point(75, 80);
+            this.SetaPriceGroupBox.Name = "SetaPriceGroupBox";
+            this.SetaPriceGroupBox.Size = new System.Drawing.Size(600, 114);
+            this.SetaPriceGroupBox.TabIndex = 6;
+            this.SetaPriceGroupBox.TabStop = false;
             // 
-            // FindaWorkerPrevious
+            // pictureBox1
             // 
-            this.FindaWorkerPrevious.BackColor = System.Drawing.Color.Silver;
-            this.FindaWorkerPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FindaWorkerPrevious.ForeColor = System.Drawing.Color.White;
-            this.FindaWorkerPrevious.Location = new System.Drawing.Point(277, 238);
-            this.FindaWorkerPrevious.Name = "FindaWorkerPrevious";
-            this.FindaWorkerPrevious.Size = new System.Drawing.Size(130, 33);
-            this.FindaWorkerPrevious.TabIndex = 1;
-            this.FindaWorkerPrevious.Text = "Previous";
-            this.FindaWorkerPrevious.UseVisualStyleBackColor = false;
-            this.FindaWorkerPrevious.Click += new System.EventHandler(this.FindaWorkerPrevious_Click);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(19, 29);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(151, 51);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
-            // FindaWorkerNext
+            // SetaPricelabel
             // 
-            this.FindaWorkerNext.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.FindaWorkerNext.FlatAppearance.BorderSize = 0;
-            this.FindaWorkerNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FindaWorkerNext.ForeColor = System.Drawing.Color.White;
-            this.FindaWorkerNext.Location = new System.Drawing.Point(416, 238);
-            this.FindaWorkerNext.Name = "FindaWorkerNext";
-            this.FindaWorkerNext.Size = new System.Drawing.Size(83, 33);
-            this.FindaWorkerNext.TabIndex = 0;
-            this.FindaWorkerNext.Text = "Next";
-            this.FindaWorkerNext.UseVisualStyleBackColor = false;
-            this.FindaWorkerNext.Click += new System.EventHandler(this.FindaWorkerNext_Click);
+            this.SetaPricelabel.AutoSize = true;
+            this.SetaPricelabel.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SetaPricelabel.ForeColor = System.Drawing.Color.White;
+            this.SetaPricelabel.Location = new System.Drawing.Point(176, 36);
+            this.SetaPricelabel.Name = "SetaPricelabel";
+            this.SetaPricelabel.Size = new System.Drawing.Size(248, 34);
+            this.SetaPricelabel.TabIndex = 4;
+            this.SetaPricelabel.Text = "Fixed Price \r\nPay a pre-defined sum for the project";
+            // 
+            // SetaPricePriceValue
+            // 
+            this.SetaPricePriceValue.Location = new System.Drawing.Point(430, 48);
+            this.SetaPricePriceValue.Name = "SetaPricePriceValue";
+            this.SetaPricePriceValue.Size = new System.Drawing.Size(140, 22);
+            this.SetaPricePriceValue.TabIndex = 2;
+            this.SetaPricePriceValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.SetaPricePriceValue.Value = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.SetaPricePriceValue.ValueChanged += new System.EventHandler(this.SetaPricePriceValue_ValueChanged);
+            // 
+            // SetaPriceCouponCode
+            // 
+            this.SetaPriceCouponCode.Location = new System.Drawing.Point(91, 218);
+            this.SetaPriceCouponCode.Multiline = true;
+            this.SetaPriceCouponCode.Name = "SetaPriceCouponCode";
+            this.SetaPriceCouponCode.Size = new System.Drawing.Size(137, 39);
+            this.SetaPriceCouponCode.TabIndex = 3;
+            // 
+            // SetaPriceNext
+            // 
+            this.SetaPriceNext.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.SetaPriceNext.FlatAppearance.BorderSize = 0;
+            this.SetaPriceNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SetaPriceNext.Location = new System.Drawing.Point(372, 291);
+            this.SetaPriceNext.Name = "SetaPriceNext";
+            this.SetaPriceNext.Size = new System.Drawing.Size(117, 40);
+            this.SetaPriceNext.TabIndex = 1;
+            this.SetaPriceNext.Text = "Next";
+            this.SetaPriceNext.UseVisualStyleBackColor = false;
+            this.SetaPriceNext.Click += new System.EventHandler(this.SetaPriceNext_Click);
+            // 
+            // ConfirmPanel
+            // 
+            this.ConfirmPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ConfirmPanel.BackgroundImage")));
+            this.ConfirmPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ConfirmPanel.Controls.Add(this.label7);
+            this.ConfirmPanel.Controls.Add(this.label5);
+            this.ConfirmPanel.Controls.Add(this.ConfirmCheckBox);
+            this.ConfirmPanel.Controls.Add(this.ConfirmCancel);
+            this.ConfirmPanel.Controls.Add(this.ConfirmSaveDraft);
+            this.ConfirmPanel.Controls.Add(this.ConfirmPublishTask);
+            this.ConfirmPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ConfirmPanel.Location = new System.Drawing.Point(0, 0);
+            this.ConfirmPanel.Name = "ConfirmPanel";
+            this.ConfirmPanel.Size = new System.Drawing.Size(1005, 586);
+            this.ConfirmPanel.TabIndex = 3;
+            this.ConfirmPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(398, 153);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(112, 17);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "terms of service.";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(284, 98);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(182, 22);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Confirming the Task.";
+            // 
+            // ConfirmCheckBox
+            // 
+            this.ConfirmCheckBox.AutoSize = true;
+            this.ConfirmCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConfirmCheckBox.Location = new System.Drawing.Point(251, 153);
+            this.ConfirmCheckBox.Name = "ConfirmCheckBox";
+            this.ConfirmCheckBox.Size = new System.Drawing.Size(154, 19);
+            this.ConfirmCheckBox.TabIndex = 3;
+            this.ConfirmCheckBox.Text = "I agree to the MyCrowd";
+            this.ConfirmCheckBox.UseVisualStyleBackColor = true;
+            this.ConfirmCheckBox.CheckedChanged += new System.EventHandler(this.ConfirmCheckBox_CheckedChanged);
+            // 
+            // ConfirmCancel
+            // 
+            this.ConfirmCancel.BackColor = System.Drawing.Color.Silver;
+            this.ConfirmCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ConfirmCancel.ForeColor = System.Drawing.Color.White;
+            this.ConfirmCancel.Location = new System.Drawing.Point(474, 207);
+            this.ConfirmCancel.Name = "ConfirmCancel";
+            this.ConfirmCancel.Size = new System.Drawing.Size(79, 33);
+            this.ConfirmCancel.TabIndex = 2;
+            this.ConfirmCancel.Text = "Cancel";
+            this.ConfirmCancel.UseVisualStyleBackColor = false;
+            this.ConfirmCancel.Click += new System.EventHandler(this.ConfirmCancel_Click);
+            // 
+            // ConfirmSaveDraft
+            // 
+            this.ConfirmSaveDraft.BackColor = System.Drawing.Color.Silver;
+            this.ConfirmSaveDraft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ConfirmSaveDraft.ForeColor = System.Drawing.Color.White;
+            this.ConfirmSaveDraft.Location = new System.Drawing.Point(361, 207);
+            this.ConfirmSaveDraft.Name = "ConfirmSaveDraft";
+            this.ConfirmSaveDraft.Size = new System.Drawing.Size(107, 34);
+            this.ConfirmSaveDraft.TabIndex = 1;
+            this.ConfirmSaveDraft.Text = "Save Draft";
+            this.ConfirmSaveDraft.UseVisualStyleBackColor = false;
+            this.ConfirmSaveDraft.Click += new System.EventHandler(this.ConfirmSaveDraft_Click);
+            // 
+            // ConfirmPublishTask
+            // 
+            this.ConfirmPublishTask.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.ConfirmPublishTask.FlatAppearance.BorderSize = 0;
+            this.ConfirmPublishTask.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ConfirmPublishTask.ForeColor = System.Drawing.Color.White;
+            this.ConfirmPublishTask.Location = new System.Drawing.Point(244, 208);
+            this.ConfirmPublishTask.Name = "ConfirmPublishTask";
+            this.ConfirmPublishTask.Size = new System.Drawing.Size(111, 33);
+            this.ConfirmPublishTask.TabIndex = 0;
+            this.ConfirmPublishTask.Text = "Publish Task";
+            this.ConfirmPublishTask.UseVisualStyleBackColor = false;
+            this.ConfirmPublishTask.Click += new System.EventHandler(this.ConfirmPublishTask_Click);
+            // 
+            // DescribeTheTaskPanel
+            // 
+            this.DescribeTheTaskPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("DescribeTheTaskPanel.BackgroundImage")));
+            this.DescribeTheTaskPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.DescribeTheTaskPanel.Controls.Add(this.taskDescriptionText);
+            this.DescribeTheTaskPanel.Controls.Add(this.Describethetasklabel);
+            this.DescribeTheTaskPanel.Controls.Add(this.DescribeTaskPrevious);
+            this.DescribeTheTaskPanel.Controls.Add(this.DescribeTaskNext);
+            this.DescribeTheTaskPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.DescribeTheTaskPanel.Location = new System.Drawing.Point(0, 0);
+            this.DescribeTheTaskPanel.Name = "DescribeTheTaskPanel";
+            this.DescribeTheTaskPanel.Size = new System.Drawing.Size(1005, 586);
+            this.DescribeTheTaskPanel.TabIndex = 1;
+            this.DescribeTheTaskPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
+            // 
+            // taskDescriptionText
+            // 
+            this.taskDescriptionText.Location = new System.Drawing.Point(141, 80);
+            this.taskDescriptionText.Multiline = true;
+            this.taskDescriptionText.Name = "taskDescriptionText";
+            this.taskDescriptionText.Size = new System.Drawing.Size(641, 200);
+            this.taskDescriptionText.TabIndex = 5;
+            this.taskDescriptionText.TextChanged += new System.EventHandler(this.taskDescriptionText_TextChanged);
+            // 
+            // Describethetasklabel
+            // 
+            this.Describethetasklabel.AutoSize = true;
+            this.Describethetasklabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Describethetasklabel.ForeColor = System.Drawing.Color.Red;
+            this.Describethetasklabel.Location = new System.Drawing.Point(282, 39);
+            this.Describethetasklabel.Name = "Describethetasklabel";
+            this.Describethetasklabel.Size = new System.Drawing.Size(162, 22);
+            this.Describethetasklabel.TabIndex = 4;
+            this.Describethetasklabel.Text = "Describe the Task";
+            // 
+            // DescribeTaskPrevious
+            // 
+            this.DescribeTaskPrevious.BackColor = System.Drawing.Color.Silver;
+            this.DescribeTaskPrevious.FlatAppearance.BorderSize = 0;
+            this.DescribeTaskPrevious.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DescribeTaskPrevious.ForeColor = System.Drawing.Color.White;
+            this.DescribeTaskPrevious.Location = new System.Drawing.Point(286, 286);
+            this.DescribeTaskPrevious.Name = "DescribeTaskPrevious";
+            this.DescribeTaskPrevious.Size = new System.Drawing.Size(114, 34);
+            this.DescribeTaskPrevious.TabIndex = 3;
+            this.DescribeTaskPrevious.Text = "Previous";
+            this.DescribeTaskPrevious.UseVisualStyleBackColor = false;
+            this.DescribeTaskPrevious.Click += new System.EventHandler(this.DescribeTaskPrevious_Click);
+            // 
+            // DescribeTaskNext
+            // 
+            this.DescribeTaskNext.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.DescribeTaskNext.FlatAppearance.BorderSize = 0;
+            this.DescribeTaskNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.DescribeTaskNext.ForeColor = System.Drawing.Color.White;
+            this.DescribeTaskNext.Location = new System.Drawing.Point(407, 285);
+            this.DescribeTaskNext.Name = "DescribeTaskNext";
+            this.DescribeTaskNext.Size = new System.Drawing.Size(104, 34);
+            this.DescribeTaskNext.TabIndex = 2;
+            this.DescribeTaskNext.Text = "Next";
+            this.DescribeTaskNext.UseVisualStyleBackColor = false;
+            this.DescribeTaskNext.Click += new System.EventHandler(this.DescribeTaskNext_Click);
+            // 
+            // TaskCategoryPanel
+            // 
+            this.TaskCategoryPanel.BackColor = System.Drawing.Color.White;
+            this.TaskCategoryPanel.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TaskCategoryPanel.BackgroundImage")));
+            this.TaskCategoryPanel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.TaskCategoryPanel.Controls.Add(this.TaskCategorylabel);
+            this.TaskCategoryPanel.Controls.Add(this.TaskCategoryGroupBox);
+            this.TaskCategoryPanel.Controls.Add(this.TaskCategoryNext);
+            this.TaskCategoryPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.TaskCategoryPanel.Location = new System.Drawing.Point(0, 0);
+            this.TaskCategoryPanel.Name = "TaskCategoryPanel";
+            this.TaskCategoryPanel.Size = new System.Drawing.Size(1005, 586);
+            this.TaskCategoryPanel.TabIndex = 0;
+            this.TaskCategoryPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.Panels_Paint);
+            // 
+            // TaskCategorylabel
+            // 
+            this.TaskCategorylabel.AutoSize = true;
+            this.TaskCategorylabel.Font = new System.Drawing.Font("Arial", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TaskCategorylabel.ForeColor = System.Drawing.Color.Red;
+            this.TaskCategorylabel.Location = new System.Drawing.Point(335, 32);
+            this.TaskCategorylabel.Name = "TaskCategorylabel";
+            this.TaskCategorylabel.Size = new System.Drawing.Size(131, 22);
+            this.TaskCategorylabel.TabIndex = 1;
+            this.TaskCategorylabel.Text = "Task Category";
+            // 
+            // TaskCategoryGroupBox
+            // 
+            this.TaskCategoryGroupBox.Controls.Add(this.radioButton4);
+            this.TaskCategoryGroupBox.Controls.Add(this.radioButton3);
+            this.TaskCategoryGroupBox.Controls.Add(this.radioButton2);
+            this.TaskCategoryGroupBox.Controls.Add(this.radioButton1);
+            this.TaskCategoryGroupBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskCategoryGroupBox.Location = new System.Drawing.Point(187, 67);
+            this.TaskCategoryGroupBox.Margin = new System.Windows.Forms.Padding(0);
+            this.TaskCategoryGroupBox.Name = "TaskCategoryGroupBox";
+            this.TaskCategoryGroupBox.Size = new System.Drawing.Size(660, 271);
+            this.TaskCategoryGroupBox.TabIndex = 1;
+            this.TaskCategoryGroupBox.TabStop = false;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(65, 200);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(458, 38);
+            this.radioButton4.TabIndex = 3;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Research\r\nWeb research, market research, competitive and scientific research.";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.Click += new System.EventHandler(this.TaskCategory_radiobutton_Click);
+            this.radioButton4.MouseEnter += new System.EventHandler(this.radioButton4_MouseEnter);
+            this.radioButton4.MouseLeave += new System.EventHandler(this.radioButton4_MouseLeave);
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(65, 145);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(478, 38);
+            this.radioButton3.TabIndex = 2;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "CopyWriting and Translation\r\nCopywriting,proof reading, ad writing, transcription" +
+    ", translation services.";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.Click += new System.EventHandler(this.TaskCategory_radiobutton_Click);
+            this.radioButton3.MouseEnter += new System.EventHandler(this.radioButton3_MouseEnter);
+            this.radioButton3.MouseLeave += new System.EventHandler(this.radioButton3_MouseLeave);
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(65, 89);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(486, 38);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Code\r\nProgramming and development.For example JavaScript, Ruby, and .NET";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.Click += new System.EventHandler(this.TaskCategory_radiobutton_Click);
+            this.radioButton2.MouseEnter += new System.EventHandler(this.radioButton2_MouseEnter);
+            this.radioButton2.MouseLeave += new System.EventHandler(this.radioButton2_MouseLeave);
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.radioButton1.Location = new System.Drawing.Point(65, 30);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(555, 38);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Creative\r\nDesign related tasks such as logos,webpages,Powerpoint themes or graphi" +
+    "c design";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.Click += new System.EventHandler(this.TaskCategory_radiobutton_Click);
+            this.radioButton1.MouseEnter += new System.EventHandler(this.radioButton1_MouseEnter);
+            this.radioButton1.MouseLeave += new System.EventHandler(this.radioButton1_MouseLeave);
+            this.radioButton1.MouseHover += new System.EventHandler(this.radioButton1_MouseHover);
+            // 
+            // TaskCategoryNext
+            // 
+            this.TaskCategoryNext.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.TaskCategoryNext.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.TaskCategoryNext.FlatAppearance.BorderSize = 0;
+            this.TaskCategoryNext.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.TaskCategoryNext.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.TaskCategoryNext.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaskCategoryNext.Location = new System.Drawing.Point(394, 363);
+            this.TaskCategoryNext.Name = "TaskCategoryNext";
+            this.TaskCategoryNext.Size = new System.Drawing.Size(117, 33);
+            this.TaskCategoryNext.TabIndex = 0;
+            this.TaskCategoryNext.Text = "Next";
+            this.TaskCategoryNext.UseVisualStyleBackColor = false;
+            this.TaskCategoryNext.Click += new System.EventHandler(this.TaskCategoryNext_Click);
             // 
             // advancedSettingsDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(1822, 705);
+            this.ClientSize = new System.Drawing.Size(1222, 705);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "advancedSettingsDialog";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create Task Form";
             this.Load += new System.EventHandler(this.advancedSettingsDialog_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
@@ -1007,28 +1007,28 @@
             this.splitContainer2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.TaskCategoryPanel.ResumeLayout(false);
-            this.TaskCategoryPanel.PerformLayout();
-            this.TaskCategoryGroupBox.ResumeLayout(false);
-            this.TaskCategoryGroupBox.PerformLayout();
-            this.DescribeTheTaskPanel.ResumeLayout(false);
-            this.DescribeTheTaskPanel.PerformLayout();
-            this.ConfirmPanel.ResumeLayout(false);
-            this.ConfirmPanel.PerformLayout();
+            this.FindaWorkerPanel.ResumeLayout(false);
+            this.FindaWorkerPanel.PerformLayout();
+            this.FindaWorkerGroupBox.ResumeLayout(false);
+            this.FindaWorkerGroupBox.PerformLayout();
+            this.AddFilesPanel.ResumeLayout(false);
+            this.AddFilesPanel.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.SetaPricePanel.ResumeLayout(false);
             this.SetaPricePanel.PerformLayout();
             this.SetaPriceGroupBox.ResumeLayout(false);
             this.SetaPriceGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SetaPricePriceValue)).EndInit();
-            this.AddFilesPanel.ResumeLayout(false);
-            this.AddFilesPanel.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.FindaWorkerPanel.ResumeLayout(false);
-            this.FindaWorkerPanel.PerformLayout();
-            this.FindaWorkerGroupBox.ResumeLayout(false);
-            this.FindaWorkerGroupBox.PerformLayout();
+            this.ConfirmPanel.ResumeLayout(false);
+            this.ConfirmPanel.PerformLayout();
+            this.DescribeTheTaskPanel.ResumeLayout(false);
+            this.DescribeTheTaskPanel.PerformLayout();
+            this.TaskCategoryPanel.ResumeLayout(false);
+            this.TaskCategoryPanel.PerformLayout();
+            this.TaskCategoryGroupBox.ResumeLayout(false);
+            this.TaskCategoryGroupBox.PerformLayout();
             this.ResumeLayout(false);
 
         }

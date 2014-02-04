@@ -34,6 +34,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ribbon1));
             this.tab1 = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
             this.group3 = this.Factory.CreateRibbonGroup();
@@ -64,7 +65,7 @@
             // CreateTaskButton
             // 
             this.CreateTaskButton.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.CreateTaskButton.Image = global::DialogueBoxLauncher.Properties.Resources.request_task;
+            this.CreateTaskButton.Image = ((System.Drawing.Image)(resources.GetObject("CreateTaskButton.Image")));
             this.CreateTaskButton.Label = "Request a Task";
             this.CreateTaskButton.Name = "CreateTaskButton";
             this.CreateTaskButton.ShowImage = true;
